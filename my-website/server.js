@@ -13,3 +13,4 @@ app.get("/about", (req, res) => res.sendFile(path.join(__dirname, "views", "abou
 
 // Start server
 app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+"."
